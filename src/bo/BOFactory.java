@@ -8,7 +8,7 @@ public class BOFactory {
     private static BOFactory boFactory;
     private BOFactory(){}
 
-    public static BOFactory getInstance(){return (null==boFactory) ? boFactory = new BOFactory() : boFactory}
+    public static BOFactory getInstance(){return (null==boFactory) ? boFactory = new BOFactory() : boFactory;}
 
     public enum BOType{
         STUDENT,ROOM,RESERVATION;
